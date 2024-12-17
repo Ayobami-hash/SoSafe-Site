@@ -15,7 +15,11 @@ const OfficerLoginPage = (): JSX.Element => {
 
   const handleLogin = (e: FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
-    navigate('/under-construction');
+    if(loginType === "officer"){
+      navigate('/officer/name');
+    } else {
+      navigate('/under-construction');
+    }
   };
 
   // Add viewport height fix for iOS

@@ -10,6 +10,7 @@ import DepartmentsPage from "./Pages/DepartmentsPage";
 import PersonnelPage from "./Pages/PersonnelPage";
 import UnderConstructionPage from "./Pages/UnderConstructionPage";
 import OfficerLoginPage from "./Pages/OfficerLoginPage";
+import OfficerDashboard from "./Pages/Officer Page/OfficerDashboard";
 
 
 
@@ -30,6 +31,7 @@ function App() {
                 <Route path="/personnel" element={<PersonnelPage />} />
                 <Route path="/login" element={<OfficerLoginPage />} />
                 <Route path="/under-construction" element={<UnderConstructionPage />} />
+                <Route path="/officer/name" element={<OfficerDashboard />} />
             </Route>
         )
     );

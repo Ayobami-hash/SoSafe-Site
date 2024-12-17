@@ -2,16 +2,30 @@ import { NewsItem } from "../components/NewsCarousel";
 import image from '../assets/image.jpg';
 import image3 from '../assets/image3.jpg';
 import image2 from '../assets/image (1).jpg';
-// Note: You'll need to import additional images for the new content
-// import image4 from '../assets/image4.webp';
-// import image5 from '../assets/image5.webp';
-// import image6 from '../assets/image6.webp';
-// import image7 from '../assets/image7.webp';
-// import image8 from '../assets/image8.webp';
-// import image9 from '../assets/image9.webp';
-// import image10 from '../assets/image10.webp';
+import image4 from '../assets/NewsUpdate-18-11-2024(3).jpg';
+
 
 export const latestNews: NewsItem[] = [
+    {
+        title: "So-Safe Corps Apprehend Two for Theft, Recover Stolen Items",
+        date: "2024-11-18",
+        image: image4,
+        excerpt: "New security protocols have been established across Ogun State...",
+        category: "Immediate Release",
+        author: "Commander Moruf Yusuf",
+        content: `The Ogun State Community, Social Orientation, and Safety Corps (So-Safe Corps) has apprehended two suspects, Abdullahi Idowu and Samson Ojo, for theft in the Idiroko border area, demonstrating the Corps' commitment to ensuring that no crime goes unpunished, regardless of its magnitude.
+
+        In a statement issued by the State Commander, Commander (Dr.) Soji Ganzallo, through the Director of Information and Public Relations, Assistant Commander Moruf Yusuf, it was disclosed that the suspects—Abdullahi Idowu, 18, a resident of Babaloke area, Idiroko, and Samson Ojo, 17, residing at Etikoto, Ikolaje area, Idiroko—were apprehended around 10:30 p.m. on November 17, 2024. Both locations fall under Ipokia Local Government Area.
+
+        The suspects were caught during a joint routine patrol by the Special Squad and the Idiroko Divisional Team of the Corps, led by Chief Superintendent Abdulkareem Abdulrazaq. Upon their arrest, they were found with two bags containing a stolen generator engine parts.
+
+        Commander Ganzallo revealed that a preliminary investigation uncovered that Abdullahi Idowu is an ex-convict who previously served a jail term in the Benin Republic. During interrogation, he confessed to stealing the generator engine parts from the Idiroko border area and admitted to stealing a large battery the previous Friday, which he sold to a scrap dealer.
+
+        The suspects were taken to the scene of the theft in Idiroko, where it was confirmed that the stolen generator parts belonged to a customs office. Additional parts of the generator were discovered in a nearby bush.
+
+        Ganzallo further stated that the suspects, along with the recovered items, have been transferred to the Nigeria Customs Service, Ogun Area 1 Command, Idiroko, for further investigation.
+        `
+    },
     {
         title: "Enhanced Security Measures Implemented",
         date: "2024-10-28",
